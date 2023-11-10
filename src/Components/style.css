@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.white{
+    color: #d4d2ca;
+    
+}
+h3,p,h1,button,h4{
+    color: #d4d2ca;
+}
+
+input{
+    background-color: rgb(79, 83, 88);
+    color: black;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.searchContainer{
+    width: 40%;
+    margin-left: 29%;
+    margin-top: 1%;
+}
+
+.srchIcon{
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+}
+.search{
+    margin:20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    border: 2px solid rgba(50, 50, 50, 0.7);
+    width: 45%;
+    box-shadow: 1px 1px 3px rgb(110, 110, 110);
+    z-index: 1;
+}
+
+.searchBar{
+    height: 40px;
+    padding: 10px;
+    width: 100%;
+}
+
+.searchbtn{
+    width: 25%;
+    height: 40px;
+    margin: 5px;
+    background-color: rgb(20 21 22);
+}
+
+.dropdown{
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdownResult{
+    margin: 0 5px;
+    cursor: pointer;
+    text-align: start;
+    
+}
+
+.half{
+    margin: 0 auto;
+    width: 35%;
+    height: 75vh;
+}
+
+.halfContainer{
+    position: relative;
+    overflow: hidden;
+    height: 65vh;
+}
+
+
+.errorMessage{
+    margin: 10vh 10vh 3vh 10vh;
+}
+
+.arrow{
+    all: unset;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: 74%;
+    width: 64px;
+    height: 64px;
+    transition: ease-in-out 200ms;
+    color: white;
+    background-color:  rgb(6, 6, 6,0.1);;
+}
+
+.arrow2{
+    background-color:  rgb(6, 6, 6,0.1);;
+}
+
+.arrow2:hover{
+    background-color:rgba(31, 31, 31, 0.5) ;
+}
+
+.oneCoin{
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid grey ;
+    transition: ease-in-out 400ms;
+    height: 130px;
+    width: 75%;
+}
+
+.oneCoin>img{
+    margin: 10px;
+    width: 50px;
+    cursor:pointer;
+    border-radius: 23%;
+}
+
+.info>h3{
+    cursor: pointer;
+}
+
+
+
+.searchCoinBox{
+    border: 5px solid rgb(100, 100, 100);
+    width: 60%;
+    margin: 30px auto;
+    padding: 15px;
+}
+.coinImg{
+    flex: 2;
+    border-radius: 10%;
+    margin: auto auto;
+}
+
+.coinInfo{
+    flex: 5;
+}
+
+.description{
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+
+.line{
+    background-color: #333;
+    width: 75%;
+    border-radius: 20%;
+    margin: 0 auto;
+    height: 4px;
+}
+
+.srchCard{
+    max-width: 22vh;
+    border: 2px solid white;
+}
+
+.srchImg{
+    width: 21vh;
+    height: 21vh;
+    z-index: 0;
+}
+
+.errorBox{
+    width: 25%;
+    margin: 10vh auto;
+}
+
+
